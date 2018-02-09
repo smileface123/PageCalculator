@@ -1,26 +1,20 @@
 import java.util.*;
 
 class PageCalculator {
-
 	public static void main(String[] args) {
-		
 		//String allPages = "1-100";
 		String allPages = "1,2,3,4,5,6";
 		//TODO: warn for excluded Pages, not in the Page list. -> Use try / exept
 		String input = "1,2,6";
-
-
 
 		String [] myString; 
 
 		int lowerBoundary;
 		int upperBoundary;
 		int temp;
-
 		
 		TreeSet<Integer> myTreeSet = new TreeSet<Integer>();
 		TreeSet<Integer> myTreeSetAllPages = new TreeSet<Integer>();
-
 		
 		// Split String.
 		myString = input.split(",");
@@ -63,7 +57,6 @@ class PageCalculator {
 		
 		// Defined Pages minus input Pages		
 		myTreeSetAllPages.removeAll(myTreeSet);
-		
 
 		// Print TreeSets.
 		//System.out.println(myTreeSet);
@@ -110,12 +103,6 @@ class PageCalculator {
 				}
 			}
 		}
-		
 
-		
-		
 	}
-
-	
-
 }
