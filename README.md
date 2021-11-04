@@ -12,4 +12,4 @@ String input = "1,2,6";
 
 
 Result can be copied e.g. in Adobe Acrobat Reader for page printing.
-Very beneficial for students an Researcher. 
+Very beneficial for students and Researchers. 
